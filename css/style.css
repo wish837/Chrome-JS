@@ -1,0 +1,76 @@
+@import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+@import url("https://rsms.me/inter/inter.css");
+    
+* {
+    outline: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'Apple SD Gothic Neo', 'Inter', 'Spoqa Han Sans', 'Segoe UI', Sans-Serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#login-form {
+    text-align: center;
+}
+
+#greeting {
+    text-align: center;
+    color: white;
+}
+
+#clock {
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    padding-top: 150px;
+}
+
+#quote {
+    text-align: center;
+    color: white;
+}
+
+#weather {
+    text-align: center;
+    color: white;
+}
+
+#todo-form {
+    text-align: center;
+}
+
+input {
+    height: 35px;
+    width: 50%;
+    max-width: 400px;
+    background-color: none;
+    border-radius: 3px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: white solid 1px;
+}
+
+li {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
